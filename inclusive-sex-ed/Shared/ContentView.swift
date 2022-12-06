@@ -24,10 +24,22 @@ struct ContentView: View {
                 {
                     VStack
                     {
-                        ForEach(configProvider.config.chapters, id: \.img)
-                        { chapter in
-                            ChapterCard(chapter: chapter, width: screen.size.width, height: screen.size.height)
+                        
+                        NavigationView
+                        {
+                            
+                            ScrollView
+                            {
+                                ForEach(configProvider.config.chapters, id: \.img)
+                                { chapter in
+                                    NavigationLink(destination: Text("HELLO"))
+                                    {
+                                        ChapterCard(chapter: chapter, width: screen.size.width, height: screen.size.height)
+                                    }
+                                }
+                            }
                         }
+                        .frame(width: screen.size.width, height: screen.size.height)
                         
                     }
                 }
