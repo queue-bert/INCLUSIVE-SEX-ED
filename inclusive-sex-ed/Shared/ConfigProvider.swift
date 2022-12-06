@@ -28,6 +28,7 @@ struct chapter : Codable
 struct article : Codable
 {
     let imgs : [String]
+    let title : String
     let text : String
 }
 

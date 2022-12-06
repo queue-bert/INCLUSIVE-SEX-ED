@@ -23,6 +23,10 @@
 		86CA4E8A293FC06F00488CF0 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 86CA4E88293FC06F00488CF0 /* config.json */; };
 		86CA4E8C293FC36100488CF0 /* ChapterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA4E8B293FC36100488CF0 /* ChapterCard.swift */; };
 		86CA4E8D293FC36100488CF0 /* ChapterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA4E8B293FC36100488CF0 /* ChapterCard.swift */; };
+		86CA4E8F293FD89300488CF0 /* ChapterContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA4E8E293FD89300488CF0 /* ChapterContentScreen.swift */; };
+		86CA4E90293FD89300488CF0 /* ChapterContentScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA4E8E293FD89300488CF0 /* ChapterContentScreen.swift */; };
+		86CA4E92293FF28300488CF0 /* ArticleViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA4E91293FF28300488CF0 /* ArticleViewScreen.swift */; };
+		86CA4E93293FF28300488CF0 /* ArticleViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA4E91293FF28300488CF0 /* ArticleViewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,8 @@
 		86CA4E85293FBF5500488CF0 /* RemoteConfigLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteConfigLoader.swift; sourceTree = "<group>"; };
 		86CA4E88293FC06F00488CF0 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../../config.json; sourceTree = "<group>"; };
 		86CA4E8B293FC36100488CF0 /* ChapterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterCard.swift; sourceTree = "<group>"; };
+		86CA4E8E293FD89300488CF0 /* ChapterContentScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterContentScreen.swift; sourceTree = "<group>"; };
+		86CA4E91293FF28300488CF0 /* ArticleViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,8 @@
 		86CA4E5B293FB6CB00488CF0 = {
 			isa = PBXGroup;
 			children = (
+				86CA4E8E293FD89300488CF0 /* ChapterContentScreen.swift */,
+				86CA4E91293FF28300488CF0 /* ArticleViewScreen.swift */,
 				86CA4E60293FB6CB00488CF0 /* Shared */,
 				86CA4E6F293FB6CC00488CF0 /* macOS */,
 				86CA4E69293FB6CC00488CF0 /* Products */,
@@ -199,11 +207,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				86CA4E80293FB70D00488CF0 /* ConfigProvider.swift in Sources */,
+				86CA4E92293FF28300488CF0 /* ArticleViewScreen.swift in Sources */,
 				86CA4E73293FB6CC00488CF0 /* ContentView.swift in Sources */,
 				86CA4E83293FBE2F00488CF0 /* LocalConfigLoader.swift in Sources */,
 				86CA4E86293FBF5500488CF0 /* RemoteConfigLoader.swift in Sources */,
 				86CA4E71293FB6CC00488CF0 /* inclusive_sex_edApp.swift in Sources */,
 				86CA4E8C293FC36100488CF0 /* ChapterCard.swift in Sources */,
+				86CA4E8F293FD89300488CF0 /* ChapterContentScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,11 +222,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				86CA4E81293FB70D00488CF0 /* ConfigProvider.swift in Sources */,
+				86CA4E93293FF28300488CF0 /* ArticleViewScreen.swift in Sources */,
 				86CA4E74293FB6CC00488CF0 /* ContentView.swift in Sources */,
 				86CA4E84293FBE2F00488CF0 /* LocalConfigLoader.swift in Sources */,
 				86CA4E87293FBF5500488CF0 /* RemoteConfigLoader.swift in Sources */,
 				86CA4E72293FB6CC00488CF0 /* inclusive_sex_edApp.swift in Sources */,
 				86CA4E8D293FC36100488CF0 /* ChapterCard.swift in Sources */,
+				86CA4E90293FD89300488CF0 /* ChapterContentScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
