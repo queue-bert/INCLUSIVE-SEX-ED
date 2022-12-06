@@ -1,0 +1,34 @@
+{
+    "chapters" : [
+        {
+            "img" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/sexuality.png",
+            "title" : "Sexuality",
+            "color" : "#F37748",
+            "articles" : [{
+                    "imgs" : ["null1", "null1"],
+                    "text" : "this is sample text1"
+                     },
+                     {
+                    "imgs" : ["null1", "null1"],
+                    "text" : "this is sample text1"
+                     }],
+            "w_scalar" : "0.85",
+            "h_scalar" : "0.70"
+        },
+        {
+            "img" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/anatomy.png",
+            "title" : "Anatomy",
+            "color" : "#84BCDA",
+            "articles" : [{
+                    "imgs" : ["null2", "null2"],
+                    "text" : "this is sample text1"
+                     },
+                     {
+                    "imgs" : ["null2", "null2"],
+                    "text" : "this is sample text2"
+                     }],
+            "w_scalar" : "0.85",
+            "h_scalar" : "0.70"
+        }
+    ]
+}
