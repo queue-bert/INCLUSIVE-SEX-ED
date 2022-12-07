@@ -30,6 +30,8 @@ struct article : Codable
     let imgs : [String]
     let title : String
     let text : String
+    let time : String
+    let color : String
 }
 
 protocol LocalConfigLoading

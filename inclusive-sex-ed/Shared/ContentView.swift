@@ -20,7 +20,6 @@ struct ContentView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding()
                         .foregroundColor(.white)
-                    Spacer()
                     ScrollView
                     {
                         VStack
@@ -30,19 +29,13 @@ struct ContentView: View {
                             {
                                 ForEach(configProvider.config.chapters, id: \.img)
                                 { chapter in
-                                    NavigationLink(destination: ChapterContentScreen(title: chapter.title, articles: chapter.articles))
+                                    NavigationLink(destination: ChapterContentScreen(hero: chapter.img, title: chapter.title, articles: chapter.articles))
                                     {
                                         ChapterCard(chapter: chapter, width: screen.size.width, height: screen.size.height)
                                     }
                                 }
                             }
                             .frame(width: screen.size.width, height: screen.size.height)
-    //                        NavigationView
-    //                        {
-    //
-    //
-    //                        }
-    //                        .frame(width: screen.size.width, height: screen.size.height)
                             
                         }
                     }
