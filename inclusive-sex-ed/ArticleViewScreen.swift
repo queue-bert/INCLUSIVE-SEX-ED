@@ -40,7 +40,7 @@ struct ArticleViewScreen: View {
         {
             VStack
             {
-                ScrollView(.horizontal)
+                ScrollView(.horizontal, showsIndicators: false)
                 {
                     HStack (spacing: 20)
                     {
@@ -66,6 +66,9 @@ struct ArticleViewScreen: View {
                         .padding([.leading, .bottom], 15)
                     Spacer()
                 }
+                
+                Text(getText(url: article.text))
+                    .padding(.horizontal, 20)
 
             }
             

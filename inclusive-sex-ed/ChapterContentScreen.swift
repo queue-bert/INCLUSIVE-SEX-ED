@@ -22,32 +22,28 @@ struct ChapterContentScreen: View {
                     .font(.largeTitle).bold()
                     .padding()
                 
-                NavigationView
+                ScrollView
                 {
-                    ScrollView
-                    {
-                        ForEach(articles, id: \.title)
-                        { article in
-                            
-                            NavigationLink(destination: ContentView())
+                    ForEach(articles, id: \.title)
+                    { article in
+                        
+                        NavigationLink(destination: ArticleViewScreen(width: screen.size.width, height: screen.size.height, article: article))
+                        {
+                            VStack
                             {
-                                VStack
-                                {
-                                    Text(article.title)
-                                        .font(.largeTitle).bold()
-                                        .foregroundColor(.white)
-                                }
-
-                                .frame(width: screen.size.width - 10, height: screen.size.height/8)
-                                .background(.gray)
-                                .cornerRadius(40)
-                                .shadow(color: .black.opacity(0.3), radius: 3, x: 3, y:3)
+                                Text(article.title)
+                                    .font(.largeTitle).bold()
+                                    .foregroundColor(.white)
                             }
+
+                            .frame(width: screen.size.width - 10, height: screen.size.height/8)
+                            .background(.gray)
+                            .cornerRadius(40)
+                            .shadow(color: .black.opacity(0.3), radius: 3, x: 3, y:3)
                         }
                     }
-                    .background(.blue)
                 }
-                .frame(width: screen.size.width, height: screen.size.height)
+                .background(.blue)
             }
         }
     }

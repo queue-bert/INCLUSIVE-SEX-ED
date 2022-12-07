@@ -69,6 +69,7 @@ struct ChapterCard: View {
         .frame(width: width * CGFloat(w_scalar), height: height * CGFloat(h_scalar), alignment: .center)
         .background(color)
         .cornerRadius(30)
+        .shadow(color: .black.opacity(0.3), radius: 3, x: 3, y:3)
         
     }
 }
