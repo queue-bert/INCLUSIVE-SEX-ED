@@ -19,6 +19,7 @@ struct chapter : Codable
     let img : String
     let title : String
     let color : String
+    let hero : String
     let articles : [article]
     let w_scalar : String
     let h_scalar : String
