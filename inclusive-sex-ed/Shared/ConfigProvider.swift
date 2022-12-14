@@ -19,6 +19,7 @@ struct chapter : Codable
     let img : String
     let title : String
     let color : String
+    let hero : String
     let articles : [article]
     let w_scalar : String
     let h_scalar : String
@@ -30,6 +31,8 @@ struct article : Codable
     let imgs : [String]
     let title : String
     let text : String
+    let time : String
+    let color : String
 }
 
 protocol LocalConfigLoading

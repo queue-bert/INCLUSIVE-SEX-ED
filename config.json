@@ -4,15 +4,27 @@
             "img" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/sexuality.png",
             "title" : "Sexuality",
             "color" : "#F37748",
+            "hero" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/Terminology/pwr-btm_in_the_style_of_fa_kahlo_fantastic_colorful_abstract_b9e6d4b0-5216-47fb-99b4-d8f14a752e99.png",
             "articles" : [{
-                    "imgs" : ["https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/sexuality.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/anatomy.png"],
-                    "title" : "Sample Title 1",
-                    "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/test.txt"
+                    "imgs" : ["https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/Terminology/pwr-btm_in_the_style_of_fa_kahlo_fantastic_colorful_abstract_b9e6d4b0-5216-47fb-99b4-d8f14a752e99.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/Terminology/pwr-btm_in_the_style_of_frida_kahlo_fantastic_colorful_abstract_b9e6d4b0-5216-47fb-99b4-d8f14a752e99.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/Terminology/pwr-btm_in_the_style_of_frida_kahlo_fantastic_colorful_abstract_b9e6d4b0-5216-47fb-99b4-de99.png"],
+                    "title" : "Terminology",
+                    "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/Terminology/terminology.txt",
+                    "time" : "1",
+                    "color" : "#F37748"
                      },
                      {
-                    "imgs" : ["https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/sexuality.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/anatomy.png"],
-                    "title" : "Sample Title 2",
-                    "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/test.txt"
+                    "imgs" : ["https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/NotYourMomsTrans101/pwr-btm_a_human_in_the_shape_of_colorful_dna_breaking_boundarie_3f548132-1d66-4dfd-b647-9c17e61115de.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/NotYourMomsTrans101/pwr-btm_human_in_the_shape_of_colorful_dna_breaking_boundarie_3f548132-1d66-4dfd-b647-9c17e61115de.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/NotYourMomsTrans101/pwr-btmhuman_in_the_shape_of_colorful_dna_breaking_boundarie_3f548132-1d66-4dfd-b647-9c17e61115de.png"],
+                    "title" : "Not Your Moms Trans 101",
+                    "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/NotYourMomsTrans101/not_your_moms_trans_101.txt",
+                    "time" : "15",
+                    "color" : "#F37748"
+                     },
+                     {
+                    "imgs" : ["https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/recommendationsForTransgenderHealthCar/pwr-btm_a_colo_hospital_made_out_of_flowers_and_trees_peace_f7ab8ced-eeb4-49e0-834f-4e09afc7bc61.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/recommendationsForTransgenderHealthCar/pwr-btm_a_colorful_homade_out_of_flowers_and_trees_peace_f7ab8ced-eeb4-49e0-834f-4e09afc7bc61.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/recommendationsForTransgenderHealthCar/pwr-btm_a_colorful_hospital_made_out_of_flowers_and_trees_peace_f7ab8ced-eeb4-49e0-834f-4e09afc7bc61.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/recommendationsForTransgenderHealthCar/pwr-btm_acolorful_hospital_made_out_of_flowers_and_trees_peace_f7ab8ced-eeb4-49e0-834f-4e09afc7bc61.png"],
+                    "title" : "Recommendations for Transgender Healthcare",
+                    "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/recommendationsForTransgenderHealthCar/recommendations_for_transgender_healthcare.txt",
+                    "time" : "31",
+                    "color" : "#F37748"
                      }],
             "w_scalar" : "0.85",
             "h_scalar" : "0.70"
@@ -21,15 +33,20 @@
             "img" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/anatomy.png",
             "title" : "Anatomy",
             "color" : "#84BCDA",
+            "hero" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/Terminology/pwr-btm_in_the_style_of_fa_kahlo_fantastic_colorful_abstract_b9e6d4b0-5216-47fb-99b4-d8f14a752e99.png",
             "articles" : [{
                 "imgs" : ["https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/sexuality.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/anatomy.png"],
                 "title" : "Sample Title 3",
-                "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/test.txt"
+                "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/test.txt",
+                "time" : "5",
+                "color" : "#F37748"
                  },
                  {
                 "imgs" : ["https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/sexuality.png", "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/anatomy.png"],
                 "title" : "Sample Title 4",
-                "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/test.txt"
+                "text" : "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/test.txt",
+                "time" : "5",
+                "color" : "#F37748"
                  }],
             "w_scalar" : "0.85",
             "h_scalar" : "0.70"

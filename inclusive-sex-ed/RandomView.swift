@@ -1,5 +1,5 @@
 //
-//  ChapterContentScreen.swift
+//  RandomView.swift
 //  inclusive-sex-ed
 //
 //  Created by Devon Quispe on 12/6/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ChapterContentScreen: View {
+struct RandomView: View {
     let hero : String
     let title : String
     let articles : [article]
@@ -68,12 +68,9 @@ struct ChapterContentScreen: View {
     }
 }
 
-struct ChapterContentScreen_Previews: PreviewProvider {
-    
-    
+struct RandomView_Previews: PreviewProvider {
     static var previews: some View {
         let configProvider = ConfigProvider(localConfigLoader: LocalConfigLoader(), remoteConfigLoader: RemoteConfigLoader())
-        
-        ChapterContentScreen(hero: configProvider.config.chapters[0].img,title: "Sexuality and Gender", articles: configProvider.config.chapters[0].articles)
+        RandomView(hero: "https://amplify-atlasiosfall22-dev-161515-deployment.s3.us-west-2.amazonaws.com/public/Sexuality+and+Gender/recommendationsForTransgenderHealthCar/pwr-btm_a_colo_hospital_made_out_of_flowers_and_trees_peace_f7ab8ced-eeb4-49e0-834f-4e09afc7bc61.png", title: "Sexuality", articles: configProvider.config.chapters[0].articles)
     }
 }

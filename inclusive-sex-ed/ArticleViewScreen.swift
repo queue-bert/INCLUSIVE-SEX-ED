@@ -42,7 +42,7 @@ struct ArticleViewScreen: View {
             {
                 ScrollView(.horizontal, showsIndicators: false)
                 {
-                    HStack (spacing: 20)
+                    HStack (spacing: 0)
                     {
                         ForEach(0..<article.imgs.count){ i in
                             AsyncImage(url: URL(string: article.imgs[i])) { image in

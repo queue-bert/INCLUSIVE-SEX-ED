@@ -52,6 +52,7 @@ struct ChapterCard: View {
                 image
                     .resizable()
                     .scaledToFit()
+                    .padding()
             } placeholder: {
                 ProgressView()
             }

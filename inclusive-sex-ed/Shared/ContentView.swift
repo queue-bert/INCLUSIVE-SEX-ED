@@ -7,50 +7,43 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
     @EnvironmentObject var configProvider : ConfigProvider
     
     var body: some View {
-        GeometryReader { screen in
-            NavigationView {
-                VStack
+        NavigationView {
+            VStack
+            {
+                Text("Topics")
+                    .font(.largeTitle).bold()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding()
+                    .foregroundColor(.white)
+                ScrollView (showsIndicators: false)
                 {
-                    Text("Topics")
-                        .font(.largeTitle).bold()
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .padding()
-                        .foregroundColor(.white)
-                    Spacer()
-                    ScrollView
+                    VStack
                     {
-                        VStack
-                        {
-                            
-                            ScrollView (showsIndicators: false)
+                        ForEach(configProvider.config.chapters, id: \.img)
+                        { chapter in
+                            NavigationLink(destination: ChapterContentScreen(hero: chapter.img, title: chapter.title, articles: chapter.articles))
                             {
-                                ForEach(configProvider.config.chapters, id: \.img)
-                                { chapter in
-                                    NavigationLink(destination: ChapterContentScreen(title: chapter.title, articles: chapter.articles))
-                                    {
-                                        ChapterCard(chapter: chapter, width: screen.size.width, height: screen.size.height)
-                                    }
-                                }
+                                ChapterCard(chapter: chapter, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
                             }
-                            .frame(width: screen.size.width, height: screen.size.height)
-    //                        NavigationView
-    //                        {
-    //
-    //
-    //                        }
-    //                        .frame(width: screen.size.width, height: screen.size.height)
-                            
                         }
+                        
+//                            ScrollView (showsIndicators: false)
+//                            {
+//
+//                            }
+//                            .frame(width: screen.size.width, height: screen.size.height)
+                        
                     }
-                    
                 }
-            .background(.mint)
+                
             }
-            .frame(width: screen.size.width, height: screen.size.height)
+        .background(.mint)
         }
     }
 }
